@@ -4430,7 +4430,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
 }
 .navbar-default {
-  background-color: purple;
+  background-color: #f65314;
   /*border-color: #white;*/
   overflow: hidden;
 }
