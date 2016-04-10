@@ -175,9 +175,10 @@ aside {
 
     text-align: center;
     color: #fff;
-    background-image: url(../img/header.gif);
+    background-image: url(../img/header.jpg);
     -webkit-background-size: cover;
     -moz-background-size: cover;
+    opacity: 0.8;
     background-size: cover;
     -o-background-size: cover;
 }
