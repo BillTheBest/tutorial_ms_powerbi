@@ -51,6 +51,14 @@ html,body {
   height: 100%;
   width: 100%;
 }
+h2.sectionhead{
+    font-family:HelveticaNeue;
+    font-size: 200%; 
+}
+h2.subsection{
+    font-family:HelveticaNeue-Light;
+    font-size: 190%; 
+}
 /*Title*/
 .title {
   color: #2c3e50;

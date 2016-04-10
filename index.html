@@ -70,10 +70,10 @@
             <div class="row">
                 <div id='content' class="col-lg-10 col-md-10"><!-- Content -->
                 <section id='intro' >
-                    <h2 ><span style="font-size:110%;font-family:HelveticaNeue">INTRODUCTION</span></h2>
+                    <h2 class="sectionhead">INTRODUCTION</h2>
                     <p>Power BI is a free piece of software from Microsoft.  With simple out-of-the box dashboards for services like oData, Hadoop, and other common open data sources (as well as commercial data sources like Salesforce, Google Analytics, and Dynamics) you can get insights from your data very quickly. It runs as a web service through a browser or as a desktop application.  While this tutorial will give you experience using both the desktop app as well as the sharing functionality of Power BI in the browser.</p>
                
-                    <h2><span style="font-size:90%;font-family:HelveticaNeue">WHAT DATA?</span></h2>
+                    <h2 class="subsection">WHAT DATA?</h2>
                     <p>Data analysis using open government data has taken the center stage for everything from community organizing to starting or growing a business to crafting good public policy. Many government entities - federal, state, and local - have made open data a cornerstone of their transparency initiatives.  But opening data to the public is just the first step to driving knowledge and insights in using that data. People need easy to use tools to help them discover, combine, analyze, and visualize that data. This two part tutorial will cover how to use the tool Power BI with open data from both federal and local data sources.</p>
                 
                     
@@ -87,7 +87,7 @@
                 </section>
                
                 <section id='narrative_1'>
-                    <h2><span style="font-size:110%;font-family:HelveticaNeue">GETTING STARTED</span></h2>
+                    <h2 class="sectionhead">GETTING STARTED</h2>
                     <p> Go to <a href="http://powerbi.com">http://powerbi.com</a> and click on the <i>Get Started For Free</i> button. This will enable you to both download the desktop version of Power BI, as well as sign up with an account that you can use to share and access your data from anywhere.</p>
     
                     <img src="img/image1.png" style="width: 100%;align:center">
@@ -98,7 +98,7 @@
                     <br>
                     <p>There are four very short, but very informative videos to help you get started.  I encourage you to take the time to review them to understand how you can use this incredibly simple, but also very powerful tool.</p>
 
-                <h2><span style="font-size:90%;font-family:HelveticaNeue-Light">GETTING THE DATA</span></h2>
+                <h2  class="subsection">GETTING THE DATA</h2>
                     <p> We are going to start by looking at a very simple data set to create a very simple report. We are going to visualize the number of school districts in each state using US Department of Commerce Census data. In the process, we will see what it takes to load that data, transform the way it looks, and use it to create some visualizations. Then we will move on to something more complex in Part 2.</p>
                     
                     <p>You can find a lot of good data quickly using the <a href="http://factfinder.census.gov"><strong>American Fact Finder</strong></a> site, which gives you a friendly way to search for the data you need.  We are interested in schools, so we can look at this data set that lists, by state, the number of school districts, and the size of enrollment in those districts. We won't be concerned about size for now, just the number of districts. You can see the <a href="http://factfinder.census.gov/faces/tableservices/jsf/pages/productview.xhtml?pid=COG_2012_ORG11.US01&prodType=table"><strong>dataset</strong></a> here.</p>
@@ -110,7 +110,7 @@
           
 
  
-        <h2><span style="font-size:90%;font-family:HelveticaNeue-Light">DATA CLEANSING</span></h2>
+        <h2  class="subsection">DATA CLEANSING</h2>
             <p> We are only going to focus on the number of school districts in the state, and the distribution of schools by size. So we can get rid of many of these columns. To get rid of a column, select the column and choose "Remove column" from, the ribbon.  Do this for the first column (Geo.id).  You can also remove multiple columns simultaneously. For example select the GEO.display-label column, hold the Shift button and select the GC.display-label column.  Now, multiple columns are selected.  Click on Remove Columns from the ribbon.</p>
              <p>Now your first column will show the states. GC.display-label1 is not a very descriptive name for the column heading. Right click on the column heading and choose "Rename..." and give it a more meaningful name like "States".</p>   
             <img src="img/image4.png" style="width: 100%">
@@ -123,7 +123,7 @@
 
 
    
-        <h2><span style="font-size:90%;font-family:HelveticaNeue-Light">DATA TYPES</span></h2>
+        <h2  class="subsection">DATA TYPES</h2>
             <img src="img/image6.png" style="width: 100%">
 
             <p>Note the wide variety of data types you have to choose from. There are a few other things that we can do before we load this data to make it easier to work with. For example, note that the number zero is represented by the "-" character. For charting, we want this to be a real digit. In the ribbon (in the Transform section), click on replace. Replace "-" with "0" (do not put the quotes in.</p>
@@ -132,7 +132,7 @@
 
 <br>
 
-        <h2><span style="font-size:90%;font-family:HelveticaNeue-Light">VISUALIZATIONS</span></h2>
+        <h2 class="subsection">VISUALIZATIONS</h2>
             <p>We are now ready to create some interesting visualizations. Click on <i>Close & Apply</i> on the ribbon (in the close section on the left).  Now you will see three sections on your window. The big empty space is your pallet. To the right is the visualizations pane where you can choose and modify your visuals. To the right of that is your fields pane, where you can choose which fields you would like to visualize. Click the expand arrow on the table in the fields pane.</p>
             <br><br>
             <img src="img/image8.png" style="width: 100%">
@@ -169,7 +169,7 @@
                 </section>
                 
                 <section id='narrative_2'>
-                    <h2 ><span style="font-size:110%;font-family:HelveticaNeue">WHAT'S NEXT</span></h2>
+                    <h2 class="sectionhead">WHAT'S NEXT</h2>
                     <p>How did it do this?  Power BI quickly searches different subsets of your dataset while applying a set of sophisticated algorithms to discover potentially-interesting insights. Power BI scans as much of a dataset as possible in an allotted amount of time.  In this case, with the visual on the right, it is telling you that Florida has noticeably more independent schools with 100,000 or more students.  If you click on the visual, you can see a more focused view. </p>
     <p>Now you are in the browser version of Power BI.  From here, it is easy to create dashboards from your visuals, to publish reports to the web, and to ask questions in your own natural language.  We will cover these in Part 2.</p>
                 </section>
