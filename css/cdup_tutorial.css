@@ -59,6 +59,15 @@ h2.subsection{
     font-family:HelveticaNeue-Light;
     font-size: 190%; 
 }
+.footlogo {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#images{
+    text-align:center;
+}
 /*Title*/
 .title {
   color: #2c3e50;
