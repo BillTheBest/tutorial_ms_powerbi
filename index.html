@@ -31,10 +31,6 @@
            }, 0);
         }
         </script>
-        
-        <script type="text/javascript">
-            window.addEventListener("hashchange", function() { scrollBy(0, -50) })
-        </script>
 
         <style>
             
@@ -53,13 +49,13 @@
             border: 0 none;
             }
           #btn {
-            background: #f65314;
+            background: purple;
             /*background: #d93434;*/
-            background-image: -webkit-linear-gradient(top, #f65314, #820a0a);
-            background-image: -moz-linear-gradient(top, #f65314, #820a0a);
-            background-image: -ms-linear-gradient(top, #f65314, #820a0a);
-            background-image: -o-linear-gradient(top, #f65314, #820a0a);
-            background-image: linear-gradient(to bottom, #f65314, #820a0a);
+            background-image: -webkit-linear-gradient(top, purple, #820a0a);
+            background-image: -moz-linear-gradient(top, purple, #820a0a);
+            background-image: -ms-linear-gradient(top, purple, #820a0a);
+            background-image: -o-linear-gradient(top, purple, #820a0a);
+            background-image: linear-gradient(to bottom, purple, #820a0a);
             -webkit-border-radius: 4;
             -moz-border-radius: 4;
             border-radius: 4px;
@@ -96,7 +92,7 @@
           #woot{
             background-color: white;
             opacity: 0.9;
-            color:#f65314;
+            color:purple;
             padding: 10px;
             border-radius: 10px;
             font-family: Helvetica;
@@ -134,7 +130,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="http://www.microsoft-chicago.com/"><img style="max-width:100%; max-height:100%;" src="img/logo.png"></a>
+                <a class="navbar-brand" href="https://www.commerce.gov/dataservice/"><img style="max-width:100%; max-height:100%;" src="img/logo.png"></a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -166,9 +162,9 @@
                         <span style="font-size:150%;line-height:1.3;" >
                           schooling with<strong><br>Power</strong> BI<br></span>
 
-                          <a id = "btn" href="https://github.com/CommerceDataService/tutorial_ms_powerbi/zipball/master"> <strong>ZIP File</strong></a>
-                          <a id = "btn" href="https://github.com/CommerceDataService/tutorial_ms_powerbi/tarball/master"> <strong>TAR Ball</strong></a>
-                          <a id = "btn" href="https://github.com/CommerceDataService/tutorial_ms_powerbi"><strong>GitHub</strong></a>
+                          <a id = "btn" href="https://github.com/CommerceDataService/TEMPLATE_REPO/zipball/master"> <strong>ZIP File</strong></a>
+                          <a id = "btn" href="https://github.com/CommerceDataService/TEMPLATE_REPO/tarball/master"> <strong>TAR Ball</strong></a>
+                          <a id = "btn" href="https://github.com/CommerceDataService/TEMPLATE_REPO"><strong>GitHub</strong></a>
 
                           <p><br>Use Power BI to visualize school districts</p>
                       </div>
@@ -184,43 +180,34 @@
     <body>
 
 
-
+        
 <!--header-->
-<div class="container-fluid main-container" style="background-color:white;">
-    <br>
-    <div class='container'>
-    <br><br>
-        <div class="row">
-            <div class="col-lg-2"style="font-family:Helvetica;text-align:left;background-color:white; border-style: solid;
-                border-color:lightgrey;border-radius:5px;border-width: 2px;">
-                <p><span style="font-size:120%;color:#f65314;">Credits</span>
-                    <small><br><strong><a href="http://www.microsoft-chicago.com/">Microsoft Chicago</a></strong>
-                    <ul>
-                        <li><a href="http://twitter.com/adamhecktman">Adam J. Hecktman</a></li>
-                        <li><a href="https://twitter.com/tableteer">Frank J. La Vigne</a></li>
-                    </ul>
-                    <strong>Edited by the Commerce Data Service</strong><br>
-                    <ul>
-                        <li>Star Ying</li>
-                    </ul>
-                    </small>
-                </p>
-            </div>
-            <div class="col-lg-7">
-                <p style="font-family:Helvetica;">
-                <span style="font-size:150%;color:darkgrey;"><strong>Introducing Power BI:</strong><br></span>
-                <span style='color:darkgrey'>
-                Power BI is a free piece of software from Microsoft.  With simple out-of-the box dashboards for services like oData, Hadoop, and other common open data sources (as well as commercial data sources like Salesforce, Google Analytics, and Dynamics) you can get insights from your data very quickly. It runs as a web service through a browser or as a desktop application.  While this tutorial will give you experience using both the desktop app as well as the sharing functionality of Power BI in the browser.
-                </span>
-                </p>
+    <div  class="container-fluid main-container" >
+
+      <div class="container">
+            <div class="row">
+                <br>
+
+                <div class="col-lg-3 col-md-4 col-sm-5" style="color:grey">
+                    <h4>By <a href="http://twitter.com/adamhecktman">Adam J. Hecktman</a> and  <a href="https://twitter.com/tableteer">Frank J. La Vigne</a>, <a href="http://www.microsoft-chicago.com/">Microsoft Chicago</a></h4> <h5> Edited by Star Ying, <a href="https://www.commerce.gov/dataservice">Commerce Data Service</a> </h5>
+                </div>
+                <div class="col-lg-6 col-md-5 col-sm-5" style="color:grey">
+               <em>As part of the <a href="https://www.commerce.gov/datausability/">Commerce Data Usability Project</a>,  Microsoft Chicago in collaboration with the <a href="https://www.commerce.gov/dataservice/">Commerce Data Service</a> has created a  tutorial that introduces PowerBI as a way to explore Commerce data.  If you have question, feel free to reach out to the Commerce Data Service at <a href="mailto:DataUsability@doc.gov">DataUsability@doc.gov</a> or Microsoft Chicago at <a href="mailto:[]">Email Goes Here</a>.</em><br>
+
+                    </p>
+                </div>
             </div>
         </div>
-    </div>
-</div>
 
+  </div>
+    
 <div id='start' class="container-fluid main-container">
+     <p style="font-family:Helvetica;">
+    <span style="font-size:150%;color:purple;"><strong>Introducing PowerBI</strong><br></span>
+    Power BI is a free piece of software from Microsoft.  With simple out-of-the box dashboards for services like oData, Hadoop, and other common open data sources (as well as commercial data sources like Salesforce, Google Analytics, and Dynamics) you can get insights from your data very quickly. It runs as a web service through a browser or as a desktop application.  While this tutorial will give you experience using both the desktop app as well as the sharing functionality of Power BI in the browser.</p>
+    
     <p style="font-family:Helvetica;">
-    <span style="font-size:150%;color:#f65314;"><strong>What data?</strong><br></span>
+    <span style="font-size:150%;color:purple;"><strong>What data?</strong><br></span>
     Data analysis using open government data has taken the center stage for everything from community organizing to starting or growing a business to crafting good public policy. Many government entities – federal, state, and local – have made open data a cornerstone of their transparency initiatives.  But opening data to the public is just the first step to driving knowledge and insights in using that data. People need easy to use tools to help them discover, combine, analyze, and visualize that data. This two part tutorial will cover how to use the tool Power BI with open data from both federal and local data sources.</p>
     <p>In Part 1 of this tutorial series, you will learn how to pull data into Power BI.  We will then do some transforming of the data to make it in the exact format we want in order to use it. We will create some simple visuals with that data.  And then we will ask questions in, natural language, to gain some insights.</p>
     <p>The next tutorial will focus on creating queries, doing advanced calculations, creating and sharing reports, and building dashboards so that every user can get a personalized view of the data that matters most. You will also see how easy it is to keep on top of your data no matter where you are. With touch-enabled native apps for Windows, iOS, and Android, you will be able to access your data wherever you go.</p>
@@ -228,10 +215,10 @@
 <br><br>
 <div class="container-fluid main-container">
     <p style="font-family:Helvetica;">
-    <span style="font-size:150%;color:#f65314;"><strong>Getting the tool:</strong><br></span>
+    <span style="font-size:150%;color:purple;"><strong>Getting the tool:</strong><br></span>
     Go to <a href="http://powerbi.com">http://powerbi.com</a> and click on the Get Started For Free button. This will enable you to both download the desktop version of Power BI, as well as sign up with an account that you can use to share and access your data from anywhere.</p>
     <br><br>
-    <img src="img/image1.png" style="width: 100%">
+    <img src="img/image1.png" style="width: 100%;align:center">
     <br><br>
     <p>Follow the instructions to install Power BI and run it.  The first thing you will see is this welcome screen:</p>
     <br><br>
@@ -242,7 +229,7 @@
 <br><br>
 <div class="container-fluid main-container">
     <p style="font-family:Helvetica;">
-    <span style="font-size:150%;color:#f65314;"><strong>Getting started by getting data:</strong><br></span>
+    <span style="font-size:150%;color:purple;"><strong>Getting started by getting data:</strong><br></span>
     We are going to start by looking at a very simple data set to create a very simple report. We are going to visualize the number of school districts in each state using US Department of Commerce Census data. In the process, we will see what it takes to load that data, transform the way it looks, and use it to create some visualizations. Then we will move on to something more complex in Part 2.</p>
     <p>You can find a lot of good data quickly using the American Fact Finder site, which gives you a friendly way to search for the data you need.  We are interested in schools, so we can look at this data set that lists, by state, the number of school districts, and the size of enrollment in those districts. We won’t be concerned about size for now, just the number of districts. You can see the <a href="http://factfinder.census.gov/faces/tableservices/jsf/pages/productview.xhtml?pid=COG_2012_ORG11.US01&prodType=table">dataset</a> here.</p>
     <p>Let’s download this data so that we can work with it. Click on the Download button and uncheck the “Include descriptive data element names” button.  Choose the Excel format (which is actually CSV) and click ok. When it is ready, click on the download button to download the file (or you can simply use the file included in the folder wit this demo.</p>
@@ -256,7 +243,7 @@
 <br><br>
 <div class="container-fluid main-container">
     <p style="font-family:Helvetica;">
-    <span style="font-size:150%;color:#f65314;"><strong>Cleaning the data:</strong><br></span>
+    <span style="font-size:150%;color:purple;"><strong>Cleaning the data:</strong><br></span>
     We are only going to focus on the number of school districts in the state, and the distribution of schools by size. So we can get rid of many of these columns. To get rid of a column, select the column and choose “Remove column” from, the ribbon.  Do this for the first column (Geo.id).  You can also remove multiple columns simultaneously. For example select the GEO.display-label column, hold the Shift button and select the GC.display-label column.  Now multiple columns are selected.  Click on Remove Columns from the ribbon.</p>
     <p>Now your first column will show the states. GC.display-label1 is not a very descriptive name for the column heading. Right click on the column heading and choose “Rename…” and give it a more meaningful name like “States”.</p>
     <br><br>
@@ -272,7 +259,7 @@
 <br><br>
 <div class="container-fluid main-container">
     <p style="font-family:Helvetica;">
-    <span style="font-size:150%;color:#f65314;"><strong>Data types, always the data types!</strong><br></span></p>
+    <span style="font-size:150%;color:purple;"><strong>Data Types, Data Types:</strong><br></span></p>
     <img src="img/image6.png" style="width: 100%">
     <br><br>
     <p>Note the wide variety of data types you have to choose from</p>
@@ -285,7 +272,7 @@
 <br><br>
 <div id='story' class="container-fluid main-container">
     <p style="font-family:Helvetica;">
-    <span style="font-size:150%;color:#f65314;"><strong>Visualizations:</strong><br></span></p>
+    <span style="font-size:150%;color:purple;"><strong>Visualizations:</strong><br></span></p>
     <p>We are now ready to create some interesting visualizations. Click on Close & Apply on the ribbon (in the close section on the left).  Now you will see three sections on your window. The big empty space is your pallet. To the right is the visualizations pane where you can choose and modify your visuals. To the right of that is your fields pane, where you can choose which fields you would like to visualize. Click the expand arrow on the table in the fields pane.</p>
     <br><br>
     <img src="img/image8.png" style="width: 100%">
@@ -323,20 +310,18 @@
 <br><br>
 <div class="container-fluid main-container">
     <p style="font-family:Helvetica;">
-    <span style="font-size:150%;color:#f65314;"><strong>Next steps:</strong><br></span></p>
-    <img src="img/image14.png" style="width: 100%">
-    <br><br>
+    <span style="font-size:150%;color:purple;"><strong>Next steps:</strong><br></span></p>
     <p>How did it do this?  Power BI quickly searches different subsets of your dataset while applying a set of sophisticated algorithms to discover potentially-interesting insights. Power BI scans as much of a dataset as possible in an allotted amount of time.  In this case, with the visual on the right, it is telling you that Florida has noticeably more independent schools with 100,000 or more students.  If you click on the visual, you can see a more focused view. </p>
-    <p>Now you are in the browser version of Power BI.  From here, it is easy to create dashboards from your visuals, to publish reports to the web, and to ask questions in your own natural language.  We will cover these in <a href="http://commercedataservice.github.io/tutorial_ms_part2">Part 2</a>.</p>
+    <p>Now you are in the browser version of Power BI.  From here, it is easy to create dashboards from your visuals, to publish reports to the web, and to ask questions in your own natural language.  We will cover these in Part 2.</p><br><br>
 </div>
 
 
 <!-- Getting Started/Code Notebook Section -->
 <!-- <div id='code' style="color:black;font-family:Helvetica;" >
     <div class="container-fluid main-container">
-    <p style="font-family:Helvetica"><span style="font-size:200%;color:#f65314;"><br><strong>TEMPLATE_GETSTARTED</strong></span>
+    <p style="font-family:Helvetica"><span style="font-size:200%;color:purple;"><br><strong>TEMPLATE_GETSTARTED</strong></span>
         <br>Schlitz hoodie echo park godard, chicharrones gentrify small batch wayfarers gastropub put a bird on it humblebrag microdosing taxidermy drinking vinegar. Health goth scenester tacos actually, ugh tumblr vinyl XOXO ennui meditation try-hard. Narwhal seitan artisan, ugh flannel green juice polaroid pickled drinking vinegar tousled plaid man bun heirloom mixtape. Keytar try-hard jean shorts thundercats meh. Wayfarers banh mi sriracha, bitters intelligentsia messenger bag distillery migas. Fashion axe fixie photo booth gluten-free seitan, meh bicycle rights thundercats post-ironic occupy etsy. Post-ironic chia synth, cronut chillwave tousled kale chips craft beer umami sriracha health goth shoreditch paleo.</p>
-    <p>Follow along in the Jupyter Notebook below or check out the code files at <a href="https://github.com/CommerceDataService/tutorial_ms_powerbi">tutorial_ms_powerbi</a>.</p> 
+    <p>Follow along in the Jupyter Notebook below or check out the code files at <a href="https://github.com/CommerceDataService/TEMPLATE_REPO">TEMPLATE_REPO</a>.</p> 
     <p><a href="./TEMPLATE_NOTEBOOK.ipynb">Download TEMPLATE_NOTEBOOK_TYPE</a></p>
     </div>
 </div> -->

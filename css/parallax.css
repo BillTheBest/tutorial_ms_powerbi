@@ -1,12 +1,12 @@
 .scroll {
      /*Set a css background */
-    background:url(../img/header.gif);
+    background:url(../img/header.jpg);
+
 
     /*Dont mind the rest*/
     position:relative;
-    width:100%;
-    height:60%;
-    background-position: center;
+    height:140%;
+    background-position:bottom;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-repeat: no-repeat;
