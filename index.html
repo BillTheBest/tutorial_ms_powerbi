@@ -105,7 +105,7 @@
                     <p>The next tutorial will focus on creating queries, doing advanced calculations, creating and sharing reports, and building dashboards so that every user can get a personalized view of the data that matters most. You will also see how easy it is to keep on top of your data no matter where you are. With touch-enabled native apps for Windows, iOS, and Android, you will be able to access your data wherever you go.</p>
                 </section>
                
-                <section id='narrative_1'>
+                <section id='gettingstarted'>
                     <h2 class="sectionhead">GETTING STARTED</h2>
                     <p> Go to <a href="http://powerbi.com">http://powerbi.com</a> and click on the <i>Get Started For Free</i> button. This will enable you to both download the desktop version of Power BI, as well as sign up with an account that you can use to share and access your data from anywhere.</p>
     
@@ -117,7 +117,7 @@
                     <br>
                     <p>There are four very short, but very informative videos to help you get started.  I encourage you to take the time to review them to understand how you can use this incredibly simple, but also very powerful tool.</p>
 
-                <h2  class="subsection">GETTING THE DATA</h2>
+                <h2  class="subsection" id="gettingthedata">THE DATA</h2>
                     <p> We are going to start by looking at a very simple data set to create a very simple report. We are going to visualize the number of school districts in each state using US Department of Commerce Census data. In the process, we will see what it takes to load that data, transform the way it looks, and use it to create some visualizations. Then we will move on to something more complex in Part 2.</p>
                     
                     <p>You can find a lot of good data quickly using the <a href="http://factfinder.census.gov"><strong>American Fact Finder</strong></a> site, which gives you a friendly way to search for the data you need.  We are interested in schools, so we can look at this data set that lists, by state, the number of school districts, and the size of enrollment in those districts. We won't be concerned about size for now, just the number of districts. You can see the <a href="http://factfinder.census.gov/faces/tableservices/jsf/pages/productview.xhtml?pid=COG_2012_ORG11.US01&prodType=table"><strong>dataset</strong></a> here.</p>
@@ -129,7 +129,7 @@
           
 
  
-        <h2  class="subsection">DATA CLEANSING</h2>
+        <h2  class="subsection" id="datacleansing">DATA CLEANSING</h2>
             <p> We are only going to focus on the number of school districts in the state, and the distribution of schools by size. So we can get rid of many of these columns. To get rid of a column, select the column and choose "Remove column" from, the ribbon.  Do this for the first column (Geo.id).  You can also remove multiple columns simultaneously. For example select the GEO.display-label column, hold the Shift button and select the GC.display-label column.  Now, multiple columns are selected.  Click on Remove Columns from the ribbon.</p>
              <p>Now your first column will show the states. GC.display-label1 is not a very descriptive name for the column heading. Right click on the column heading and choose "Rename..." and give it a more meaningful name like "States".</p>   
             <img src="img/image4.png" style="width: 100%">
@@ -142,7 +142,7 @@
 
 
    
-        <h2  class="subsection">DATA TYPES</h2>
+        <h2  class="subsection" id="datatypes">DATA TYPES</h2>
             <img src="img/image6.png" style="width: 100%">
 
             <p>Note the wide variety of data types you have to choose from. There are a few other things that we can do before we load this data to make it easier to work with. For example, note that the number zero is represented by the "-" character. For charting, we want this to be a real digit. In the ribbon (in the Transform section), click on replace. Replace "-" with "0" (do not put the quotes in.</p>
@@ -151,7 +151,7 @@
 
 <br>
 
-        <h2 class="subsection">VISUALIZATIONS</h2>
+        <h2 class="subsection" id="visualizations">VISUALIZATIONS</h2>
             <p>We are now ready to create some interesting visualizations. Click on <i>Close & Apply</i> on the ribbon (in the close section on the left).  Now you will see three sections on your window. The big empty space is your pallet. To the right is the visualizations pane where you can choose and modify your visuals. To the right of that is your fields pane, where you can choose which fields you would like to visualize. Click the expand arrow on the table in the fields pane.</p>
             <br><br>
             <img src="img/image8.png" style="width: 100%">
@@ -229,7 +229,11 @@
                             </ul>
                         </li>
                         <li><a href="#intro">INTRODUCTION</a></li>
-                        <li><a href="#narrative_1">GETTING STARTED</a></li>
+                        <li><a href="#gettingstarted">GETTING STARTED</a></li>
+                        <li><a href="#gettingthedata">THE DATA</a></li>
+                        <li><a href="#datacleansing">DATA CLEANSING</a></li>
+                        <li><a href="#datatypes">DATA TYPES</a></li>
+                        <li><a href="#visualizations">VISUALIZATIONS</a></li>
                         <li><a href="#narrative_2">WHAT'S NEXT</a></li>
                         
                     </ul>
